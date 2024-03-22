@@ -14,7 +14,7 @@
         
         <div class="input-container">
             <!-- Input -->
-            <input type="text" id="name" placeholder="Enter Name">
+            <input type="text" id="name-gen" placeholder="Enter Name">
             <!-- Button -->
             <button onclick="getGender()">Get Gender</button>
         </div>
@@ -22,6 +22,39 @@
         <div id="gender" class="gender-result"></div>
     </div>
 
+    <div class="container-2">
+        <h1 class="logo">Data USA</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nation</th>
+                    <th>Population</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="dataUsa()">Fetch Data</button>
+    </div>
+
+    <div class="container">
+        <div class="logo">Nationalize</div>
+
+        <div class="input-container">
+            <!-- Input -->
+            <input type="text" id="name-nat" placeholder="Enter Name">
+            <!-- Button -->
+            <button onclick="nationalize()">Get Nationality</button>
+        </div>
+        <!-- Nationality resultaten -->
+        <div id="nationality" class="nationality-result"></div>
+    </div>
 </body>
 <!-- JS -->
 <script src="script.js"></script>
